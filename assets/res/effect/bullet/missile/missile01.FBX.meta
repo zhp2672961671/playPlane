@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e5713de6-9c2e-4506-84ed-a4f7b725f8d7",
+  "files": [],
+  "subMetas": {
+    "89028": {
+      "importer": "gltf-scene",
+      "uuid": "e5713de6-9c2e-4506-84ed-a4f7b725f8d7@89028",
+      "displayName": "",
+      "id": "89028",
+      "name": "missile01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3a9f4": {
+      "importer": "gltf-mesh",
+      "uuid": "e5713de6-9c2e-4506-84ed-a4f7b725f8d7@3a9f4",
+      "displayName": "",
+      "id": "3a9f4",
+      "name": "missile01.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8f220": {
+      "importer": "gltf-material",
+      "uuid": "e5713de6-9c2e-4506-84ed-a4f7b725f8d7@8f220",
+      "displayName": "",
+      "id": "8f220",
+      "name": "missile.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": true,
+    "redirect": "e5713de6-9c2e-4506-84ed-a4f7b725f8d7@89028",
+    "assetFinder": {
+      "meshes": [
+        "e5713de6-9c2e-4506-84ed-a4f7b725f8d7@3a9f4"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "e5713de6-9c2e-4506-84ed-a4f7b725f8d7@8f220"
+      ],
+      "scenes": [
+        "e5713de6-9c2e-4506-84ed-a4f7b725f8d7@89028"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "__version__": "1.0.2",
+  "script": {
+    "useDefineForClassFields": false,
+    "allowDeclareFields": false
+  },
+  "general": {
+    "designResolution": {
+      "width": 720,
+      "height": 1280,
+      "fitWidth": true
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "BULLET"
+      },
+      {
+        "index": 2,
+        "name": "ENEMY"
+      },
+      {
+        "index": 3,
+        "name": "SELF_PLANE"
+      },
+      {
+        "index": 4,
+        "name": "FIGHTBULLET"
+      },
+      {
+        "index": 5,
+        "name": "PROP"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 15,
+      "1": 13,
+      "2": 11,
+      "3": 55,
+      "4": 8,
+      "5": 8
+    }
+  },
+  "layer": [
+    {
+      "name": "SELF_PLANE",
+      "value": 1
+    },
+    {
+      "name": "SELF_BULLET",
+      "value": 2
+    },
+    {
+      "name": "ENEMY1",
+      "value": 4
+    }
+  ],
+  "custom_joint_texture_layouts": [],
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
+    }
+  }
+}

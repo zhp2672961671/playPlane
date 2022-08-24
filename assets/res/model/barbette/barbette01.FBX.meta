@@ -1,0 +1,80 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b66029aa-fa0a-4b89-901b-b65c2de00cdf",
+  "files": [],
+  "subMetas": {
+    "80210": {
+      "importer": "gltf-material",
+      "uuid": "b66029aa-fa0a-4b89-901b-b65c2de00cdf@80210",
+      "displayName": "",
+      "id": "80210",
+      "name": "barbette.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cdb96": {
+      "importer": "gltf-mesh",
+      "uuid": "b66029aa-fa0a-4b89-901b-b65c2de00cdf@cdb96",
+      "displayName": "",
+      "id": "cdb96",
+      "name": "barbette01.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "768e1": {
+      "importer": "gltf-scene",
+      "uuid": "b66029aa-fa0a-4b89-901b-b65c2de00cdf@768e1",
+      "displayName": "",
+      "id": "768e1",
+      "name": "barbette01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": true,
+    "redirect": "b66029aa-fa0a-4b89-901b-b65c2de00cdf@768e1",
+    "assetFinder": {
+      "meshes": [
+        "b66029aa-fa0a-4b89-901b-b65c2de00cdf@cdb96"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "b66029aa-fa0a-4b89-901b-b65c2de00cdf@80210"
+      ],
+      "scenes": [
+        "b66029aa-fa0a-4b89-901b-b65c2de00cdf@768e1"
+      ]
+    },
+    "dumpMaterials": false,
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

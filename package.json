@@ -1,0 +1,15 @@
+{
+  "_sourceId": "c30b28da-749e-479b-bcb6-cecd8d7be9e3",
+  "_storeId": "f337c9083e7da32324722ca9e8aef8bd",
+  "creator": {
+    "version": "3.6.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^8.1.0",
+    "react": "^17.0.2"
+  },
+  "name": "flyplayer",
+  "uuid": "a10a38fd-3757-4718-b02f-3081aae046ef",
+  "version": "3.6.0"
+}

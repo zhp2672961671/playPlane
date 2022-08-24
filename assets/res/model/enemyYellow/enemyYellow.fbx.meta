@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c93c3172-f217-4c57-9d7b-912f899b827d",
+  "files": [],
+  "subMetas": {
+    "10790": {
+      "importer": "gltf-material",
+      "uuid": "c93c3172-f217-4c57-9d7b-912f899b827d@10790",
+      "displayName": "",
+      "id": "10790",
+      "name": "enemy02.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "52943": {
+      "importer": "gltf-scene",
+      "uuid": "c93c3172-f217-4c57-9d7b-912f899b827d@52943",
+      "displayName": "",
+      "id": "52943",
+      "name": "enemyYellow.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "df3d8": {
+      "importer": "gltf-mesh",
+      "uuid": "c93c3172-f217-4c57-9d7b-912f899b827d@df3d8",
+      "displayName": "",
+      "id": "df3d8",
+      "name": "enemy02.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": true,
+    "redirect": "c93c3172-f217-4c57-9d7b-912f899b827d@52943",
+    "assetFinder": {
+      "meshes": [
+        "c93c3172-f217-4c57-9d7b-912f899b827d@df3d8"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "c93c3172-f217-4c57-9d7b-912f899b827d@10790"
+      ],
+      "scenes": [
+        "c93c3172-f217-4c57-9d7b-912f899b827d@52943"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

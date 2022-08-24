@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f9135c4a-cad0-4bfc-9c58-485bd87d8d69",
+  "files": [],
+  "subMetas": {
+    "e87d9": {
+      "importer": "gltf-mesh",
+      "uuid": "f9135c4a-cad0-4bfc-9c58-485bd87d8d69@e87d9",
+      "displayName": "",
+      "id": "e87d9",
+      "name": "missile03.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8f220": {
+      "importer": "gltf-material",
+      "uuid": "f9135c4a-cad0-4bfc-9c58-485bd87d8d69@8f220",
+      "displayName": "",
+      "id": "8f220",
+      "name": "missile.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5c472": {
+      "importer": "gltf-scene",
+      "uuid": "f9135c4a-cad0-4bfc-9c58-485bd87d8d69@5c472",
+      "displayName": "",
+      "id": "5c472",
+      "name": "missile03.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": true,
+    "redirect": "f9135c4a-cad0-4bfc-9c58-485bd87d8d69@5c472",
+    "assetFinder": {
+      "meshes": [
+        "f9135c4a-cad0-4bfc-9c58-485bd87d8d69@e87d9"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "f9135c4a-cad0-4bfc-9c58-485bd87d8d69@8f220"
+      ],
+      "scenes": [
+        "f9135c4a-cad0-4bfc-9c58-485bd87d8d69@5c472"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

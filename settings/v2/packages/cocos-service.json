@@ -1,0 +1,53 @@
+{
+  "game": {
+    "name": "UNKNOW GAME",
+    "app_id": "UNKNOW",
+    "c_id": "0"
+  },
+  "appConfigMaps": [
+    {
+      "app_id": "UNKNOW",
+      "config_id": "53fed4"
+    },
+    {
+      "app_id": "600767493",
+      "config_id": "4ef751"
+    },
+    {
+      "app_id": "600767494",
+      "config_id": "ccfadf"
+    }
+  ],
+  "configs": [
+    {
+      "app_id": "UNKNOW",
+      "config_id": "53fed4",
+      "config_name": "Default",
+      "config_remarks": "",
+      "services": []
+    },
+    {
+      "app_id": "600767493",
+      "config_id": "4ef751",
+      "config_name": "Default",
+      "config_remarks": "",
+      "services": []
+    },
+    {
+      "app_id": "600767494",
+      "config_id": "ccfadf",
+      "config_name": "Default",
+      "config_remarks": "",
+      "services": [
+        {
+          "service_id": "235",
+          "enable": false,
+          "param": {
+            "app_id": "600767494",
+            "store_id": "160564"
+          }
+        }
+      ]
+    }
+  ]
+}

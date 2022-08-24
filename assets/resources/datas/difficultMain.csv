@@ -1,0 +1,6 @@
+id,游戏难度表id,难度,对应难度表格
+number,number,number,string
+ID,mapId,difficult,mapName
+1001,1000,1,difficult1
+1002,1001,2,difficult2
+1003,1002,3,difficult3

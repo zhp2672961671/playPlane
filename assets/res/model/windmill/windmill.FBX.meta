@@ -1,0 +1,98 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7fe2c83d-51c6-4ad1-9141-384597ed919e",
+  "files": [],
+  "subMetas": {
+    "3d615": {
+      "importer": "gltf-mesh",
+      "uuid": "7fe2c83d-51c6-4ad1-9141-384597ed919e@3d615",
+      "displayName": "",
+      "id": "3d615",
+      "name": "windmill_2.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6a2f2": {
+      "importer": "gltf-mesh",
+      "uuid": "7fe2c83d-51c6-4ad1-9141-384597ed919e@6a2f2",
+      "displayName": "",
+      "id": "6a2f2",
+      "name": "windmill_1.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b19f0": {
+      "importer": "gltf-material",
+      "uuid": "7fe2c83d-51c6-4ad1-9141-384597ed919e@b19f0",
+      "displayName": "",
+      "id": "b19f0",
+      "name": "windmill.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96c6b": {
+      "importer": "gltf-scene",
+      "uuid": "7fe2c83d-51c6-4ad1-9141-384597ed919e@96c6b",
+      "displayName": "",
+      "id": "96c6b",
+      "name": "windmill.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "7fe2c83d-51c6-4ad1-9141-384597ed919e@96c6b",
+    "assetFinder": {
+      "meshes": [
+        "7fe2c83d-51c6-4ad1-9141-384597ed919e@3d615",
+        "7fe2c83d-51c6-4ad1-9141-384597ed919e@6a2f2"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "7fe2c83d-51c6-4ad1-9141-384597ed919e@b19f0"
+      ],
+      "scenes": [
+        "7fe2c83d-51c6-4ad1-9141-384597ed919e@96c6b"
+      ]
+    },
+    "fbx": {
+      "preferLocalTimeSpan": false,
+      "smartMaterialEnabled": false
+    }
+  }
+}

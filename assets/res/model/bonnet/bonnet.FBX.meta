@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "9548e6f0-917d-4dc1-83b9-b044582b0fc2",
+  "files": [],
+  "subMetas": {
+    "9dc37": {
+      "importer": "gltf-mesh",
+      "uuid": "9548e6f0-917d-4dc1-83b9-b044582b0fc2@9dc37",
+      "displayName": "",
+      "id": "9dc37",
+      "name": "bonnet.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a852c": {
+      "importer": "gltf-material",
+      "uuid": "9548e6f0-917d-4dc1-83b9-b044582b0fc2@a852c",
+      "displayName": "",
+      "id": "a852c",
+      "name": "bonnet.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f52c3": {
+      "importer": "gltf-scene",
+      "uuid": "9548e6f0-917d-4dc1-83b9-b044582b0fc2@f52c3",
+      "displayName": "",
+      "id": "f52c3",
+      "name": "bonnet.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": true,
+    "redirect": "9548e6f0-917d-4dc1-83b9-b044582b0fc2@f52c3",
+    "assetFinder": {
+      "meshes": [
+        "9548e6f0-917d-4dc1-83b9-b044582b0fc2@9dc37"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "9548e6f0-917d-4dc1-83b9-b044582b0fc2@a852c"
+      ],
+      "scenes": [
+        "9548e6f0-917d-4dc1-83b9-b044582b0fc2@f52c3"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

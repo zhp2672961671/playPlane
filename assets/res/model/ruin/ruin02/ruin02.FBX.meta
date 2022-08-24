@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "dc9e19b8-e70d-45a9-9e4e-5e0daa771a36",
+  "files": [],
+  "subMetas": {
+    "013c4": {
+      "importer": "gltf-mesh",
+      "uuid": "dc9e19b8-e70d-45a9-9e4e-5e0daa771a36@013c4",
+      "displayName": "",
+      "id": "013c4",
+      "name": "ruin02.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dbdee": {
+      "importer": "gltf-material",
+      "uuid": "dc9e19b8-e70d-45a9-9e4e-5e0daa771a36@dbdee",
+      "displayName": "",
+      "id": "dbdee",
+      "name": "ruin02.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "419ec": {
+      "importer": "gltf-scene",
+      "uuid": "dc9e19b8-e70d-45a9-9e4e-5e0daa771a36@419ec",
+      "displayName": "",
+      "id": "419ec",
+      "name": "ruin02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": true,
+    "redirect": "dc9e19b8-e70d-45a9-9e4e-5e0daa771a36@419ec",
+    "assetFinder": {
+      "meshes": [
+        "dc9e19b8-e70d-45a9-9e4e-5e0daa771a36@013c4"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "dc9e19b8-e70d-45a9-9e4e-5e0daa771a36@dbdee"
+      ],
+      "scenes": [
+        "dc9e19b8-e70d-45a9-9e4e-5e0daa771a36@419ec"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}
