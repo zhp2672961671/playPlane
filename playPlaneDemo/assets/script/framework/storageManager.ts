@@ -1,4 +1,4 @@
-import { _decorator, sys, log } from "cc";
+import { _decorator, sys, log ,native} from "cc";
 import { Util } from './util';
 
 const { ccclass, property } = _decorator;
@@ -29,10 +29,12 @@ export class StorageManager {
         };
 
         this._path = this._getConfigPath();
+        console.log(" this._path===========", this._path)
 
         let content;
+        //获取本地存储
         if (sys.isNative) {
-            let valueObject = jsb.fileUtils.getValueMapFromFile(this._path);
+            let valueObject = native.fileUtils.getValueMapFromFile(this._path);
             content = valueObject[this.KEY_CONFIG];
         } else {
             content = sys.localStorage.getItem(this.KEY_CONFIG);
@@ -47,8 +49,13 @@ export class StorageManager {
         // }
 
         if (content && content.length) {
+            /*
+            startsWith()方法用来判断当前字符串是否是以另外一个给定的子字符串“开头”的，根据判断结果返回 true 或 false。
+             */
             if (content.startsWith('@')) {
+                // substring字符串截取
                 content = content.substring(1);
+                // 数据解密
                 content = Util.decrypt(content);
             }
 
@@ -202,7 +209,7 @@ export class StorageManager {
 
         let valueObj: any = {};
         valueObj[this.KEY_CONFIG] = zipStr;
-        jsb.fileUtils.writeToFile(valueObj, this._path);
+        native.fileUtils.writeValueMapToFile(valueObj, this._path);
         // jsb.fileUtils.writeToFile(valueObj);
     }
 
@@ -222,7 +229,8 @@ export class StorageManager {
             path = "./conf";
         } else {
             if (sys.isNative) {
-                path = jsb.fileUtils.getWritablePath();
+                // 获取可写路径。
+                path = native.fileUtils.getWritablePath();
                 path = path + "conf";
             } else {
                 path = "src/conf";

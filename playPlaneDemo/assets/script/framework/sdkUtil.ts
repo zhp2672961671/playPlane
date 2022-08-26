@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 
-import { _decorator, Vec3, SpriteFrame, SpriteComponent, sys, Node } from "cc";
+import { _decorator, Vec3, SpriteFrame, SpriteComponent, sys, Node,native } from "cc";
 import { PlayerData } from "./playerData";
 import { Constant } from './constant';
 import { AudioManager } from './audioManager';
@@ -64,7 +64,7 @@ export class SdkUtil {
 
             if (now - this.vibratePreTime >= this.vibrateInterval) {
                 if (sys.isNative) {
-                    jsb.reflection.callStaticMethod("com/cocos/game/AppActivity", "vibrator", "()V");
+                    native.reflection.callStaticMethod("com/cocos/game/AppActivity", "vibrator", "()V");
                 // @ts-ignore
                 } else if (window.wx) {
                 // @ts-ignore

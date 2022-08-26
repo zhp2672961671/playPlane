@@ -1,6 +1,12 @@
 import { _decorator, Component } from "cc";
 const { ccclass, property } = _decorator;
 
+declare global {
+  interface Window {
+    wx: any;
+  }
+}
+
 @ccclass("Util")
 export class Util {
     /**
@@ -671,11 +677,17 @@ export class Util {
      * @returns
      */
     private static _utf8Encode (string: string) {
+        // 替换
+        // g	执行全局匹配（查找所有匹配而非在找到第一个匹配后停止）。
+        // 正则表达式中"/"是表达式开始和结束的标记，“\”可以将后面出现的字符标记为特殊字符，\r\n #匹配换行
         string = string.replace(/\r\n/g, "\n");
         let utftext: string = "";
         for (let n: number = 0; n < string.length; n++) {
+            //charCodeAt 将返回位置 的字符的 Unicode 编码：
             let c: number = string.charCodeAt(n);
             if (c < 128) {
+                // 基本拉丁字母
+                // 将 Unicode 编码转为一个字符:
                 utftext += String.fromCharCode(c);
             } else if ((c > 127) && (c < 2048)) {
                 utftext += String.fromCharCode((c >> 6) | 192);

@@ -139,6 +139,8 @@ export class PlayerData {
      * @returns
      */
     public generateRandomAccount () {
+        // ${ }是es6新增的字符串方法
+        //        可以配合单反引号完成字符串拼接的功能
         this.userId = `${Date.now()}${Util.getRandomInt(0, 1000)}`;
         StorageManager.instance.setUserId(this._userId);
     }

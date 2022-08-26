@@ -47,6 +47,7 @@ export class Main extends Component {
 
 
     start () {
+        // 获取本地数据
         let frameRate = StorageManager.instance.getGlobalData("frameRate");
         if (typeof frameRate !== "number") {
             frameRate = Constant.GAME_FRAME;
@@ -58,7 +59,9 @@ export class Main extends Component {
         }
 
         console.log("###frameRate", frameRate);
+        // 游戏的设定帧率。
         game.frameRate = frameRate;
+        // 获取或设置每步模拟消耗的固定时间（以 s 为单位）。
         PhysicsSystem.instance.fixedTimeStep = 1 / frameRate;
 
         // @ts-ignore
@@ -74,24 +77,24 @@ export class Main extends Component {
 
         // 开启碰撞检测
         PhysicsSystem.instance.enable = true;
-        setDisplayStats(false);     // 关闭左下角的调试信息
 
-        PlayerData.instance.loadGlobalCache();
         PlayerData.instance.loadGlobalCache();
         if (!PlayerData.instance.userId) {
             PlayerData.instance.generateRandomAccount();
             console.log("###生成随机userId", PlayerData.instance.userId);
         }
-
+        // 获取用户数据
         PlayerData.instance.loadFromCache();
-
+        // 获取或创建玩家信息
         if (!PlayerData.instance.playerInfo || !PlayerData.instance.playerInfo.createDate) {
             PlayerData.instance.createPlayerInfo();
         }
+        // 分享
         SdkUtil.shareGame(Constant.GAME_NAME_CH, "");
 
 
         // 开始之前需要加载的东西
+        // 加载 玩家自身的飞机Prefab
         ResourceUtil.loadModelRes(Constant.LOADING_PATH.PLAYER_PLANE).then((player: Prefab) => {
             this._player = PoolManager.instance.getNode(player, this.node.parent);
             this._player.getComponent(selfPlane).show(this.game);

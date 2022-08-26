@@ -563,7 +563,7 @@
       "x": -0.7071067811865475,
       "y": 0,
       "z": 0,
-      "w": 0.7071067811865477
+      "w": 0.7071067811865476
     },
     "_lscale": {
       "__type__": "cc.Vec3",
@@ -574,7 +574,7 @@
     "_layer": 1073741824,
     "_euler": {
       "__type__": "cc.Vec3",
-      "x": -89.99999999999999,
+      "x": -90,
       "y": 0,
       "z": 0
     },
@@ -647,7 +647,6 @@
     "_illuminanceHDR": 105000,
     "_illuminance": 105000,
     "_illuminanceLDR": 2.734375,
-    "_id": "09lNN3/WlHKJ2uNFbn4iy3",
     "_shadowEnabled": true,
     "_shadowPcf": 2,
     "_shadowBias": 0.1,
@@ -655,13 +654,14 @@
     "_shadowSaturation": 0.95,
     "_shadowDistance": 100,
     "_shadowInvisibleOcclusionRange": 200,
+    "_csmLevel": 4,
+    "_csmLayerLambda": 0.75,
+    "_csmOptimizationMode": 2,
     "_shadowFixedArea": true,
     "_shadowNear": 0.1,
     "_shadowFar": 2000,
     "_shadowOrthoSize": 800,
-    "_csmLevel": 4,
-    "_csmLayerLambda": 0.75,
-    "_csmOptimizationMode": 2
+    "_id": "09lNN3/WlHKJ2uNFbn4iy3"
   },
   {
     "__type__": "cc.StaticLightSettings",
@@ -782,8 +782,8 @@
   },
   {
     "__type__": "cc.ShadowsInfo",
-    "_type": 1,
     "_enabled": true,
+    "_type": 1,
     "_normal": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -807,6 +807,7 @@
   },
   {
     "__type__": "cc.SkyboxInfo",
+    "_envLightingType": 0,
     "_envmapHDR": null,
     "_envmap": null,
     "_envmapLDR": null,
@@ -814,7 +815,9 @@
     "_diffuseMapLDR": null,
     "_enabled": false,
     "_useHDR": true,
-    "_envLightingType": 0
+    "_editableMaterial": null,
+    "_reflectionHDR": null,
+    "_reflectionLDR": null
   },
   {
     "__type__": "cc.FogInfo",
